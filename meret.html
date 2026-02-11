@@ -9,6 +9,7 @@
 </head>
 <body>
     <header>
+    <h1>Webáruház</h1>
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
     <div class="container-fluid">
     <ul class="navbar-nav">
@@ -32,10 +33,10 @@
 
     <div class="col-sm-3">
       <h6>Keresési feltételek</h6>
-
+      <input type="text" class="form-control-plaintext" placeholder="A termék neve:">
+      <input type="text" class="form-control mt-3" placeholder="A termék neve">
       <label for="customRange" class="form-label">Szűrés ár szerint</label>
       <input type="range" class="form-range" id="customRange">
-
       <button type="submit" class="btn btn-primary mt-3">Submit</button>
     </div>
 
@@ -57,24 +58,45 @@
           <tr><td>S</td><td>50 cm</td><td>69 cm</td></tr>
           <tr><td>M</td><td>53 cm</td><td>72 cm</td></tr>
           <tr><td>L</td><td>56 cm</td><td>74 cm</td></tr>
+          <tr><td>XL</td><td>58 cm</td><td>76 cm</td></tr>
+          <tr><td>2XL</td><td>62 cm</td><td>78 cm</td></tr>
+          <tr><td>3XL</td><td>64 cm</td><td>80 cm</td></tr>
+          <tr><td>4XL</td><td>68 cm</td><td>84 cm</td></tr>
+          <tr><td>5XL</td><td>72 cm</td><td>88 cm</td></tr>
         </tbody>
       </table>
     </div>
 
     <div class="col-sm-3">
       <h6>Kapcsolódó cikkek</h6>
-      <ul>
-        <li>Lorem ipsum dolor sit amet</li>
-        <li>Modi deleniti molestias</li>
-        <li>Aspernatur eos vero</li>
-      </ul>
+      <div class="card mb-3">
+    <div class="card-body">
+      <ol class="mb-0">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        <li>Modi deleniti molestias saepe dolorem accusantium nesciunt.</li>
+        <li>Aspernatur eos vero distinctio possimus porro enim.</li>
+      </ol>
+    </div>
+  </div>
+  <div>
+     <h6>Kapcsolódó cikkek</h6>
+    <div class="card-body">
+      <p class="mb-0">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Accusamus nemo odio veniam beatae dolor. Modi deleniti molestias 
+        saepe dolorem consectetur accusantium nesciunt a voluptates id aperiam.
+      </p>
+    </div>
+  </div>
     </div>
 
   </div>
 
 
     </main>
-    
+    <footer>
+      <p>Czeczei Bence</p>
+    </footer>
 </body>
 </html>
 
